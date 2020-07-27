@@ -8,7 +8,7 @@ export default _ =>
 
     <div id="app">
         <h1>Fundamentos React</h1>
-        <Aleatorio/>
+        <Aleatorio min = {1} max={60}/>
         <Fragmento />
         <ComParametro
             titulo="Situação do Aluno"
